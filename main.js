@@ -2,5 +2,5 @@ let checker = 0;
 let runner = ['bla','dadada'];
 
 for(let run of runner){
-    console.log('testbranch ' + run);
+    console.log('master ' + run);
 }

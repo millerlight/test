@@ -1,0 +1,47 @@
+chrome ohne cors starten:
+google-chrome --disable-web-security --user-data-dir ~/.config/google-chrome/Default
+
+
+usr/share/applications
+
+npm link-better:
+
+nlc -w 
+
+
+npm ci
+
+
+docker image manuell erstellen:
+
+docker build .
+docker images -> id zum taggen rausnehmen
+docker tag [id] docker.slsprototyp.de/frontend/adresse:bpo
+docker push docker.slsprototyp.de/frontend/adresse:bpo
+
+
+# Alle Container löschen
+
+sudo docker stop $(sudo docker ps -a -q)
+docker rm $(docker ps -a -q)
+# Alle Abbilder/Images löschen
+docker rmi $(docker images -q)
+
+Docker lokal laufen lassen
+docker run -p 80:80 -i 0b5d8fb5d325
+
+
+Docker container lokal aufrufen
+
+sudo docker exec -i -t a13d511b8b88 /bin/bash
+
+nginx-pfad
+cd /usr/share/nginx/html/js/
+cat .
+
+
+
+
+
+
+
